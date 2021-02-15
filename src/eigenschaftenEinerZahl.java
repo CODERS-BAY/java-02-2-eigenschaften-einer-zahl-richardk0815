@@ -11,22 +11,23 @@ public class eigenschaftenEinerZahl {
 
         if (zahl % 10 == 0) {
             System.out.println(zahl + " ist eine runde Zahl");
-        } else
+        } else {
             System.out.println(zahl + " ist keine runde Zahl");
-
+        }
         if (zahl % 2 == 0) {
             System.out.println(zahl + " ist eine gerade Zahl");
-        } else
+        } else {
             System.out.println(zahl + " ist keine gerade Zahl");
-
+        }
         if (gluecksZahl == zahl) {
             System.out.println(zahl + " entspricht deiner Glückszahl");
-        } else
+        } else {
             System.out.println(zahl + " entspricht nicht deiner Glückszahl");
-
+        }
         if (zahl >= 10 && zahl <= 99) {
             System.out.println(zahl + " ist eine zweistellige Zahl");
-        } else
+        } else {
             System.out.println(zahl + " ist keine zweistellige Zahl");
+        }
     }
 }
