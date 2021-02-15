@@ -24,7 +24,8 @@ public class eigenschaftenEinerZahl {
         } else {
             System.out.println(zahl + " entspricht nicht deiner Glückszahl");
         }
-        if (zahl >= 10 && zahl <= 99) {
+        int betrag = Math.abs(zahl); // gibt wert der absoluten zahl aus, egal ob vorher positiv oder negativ
+        if (betrag >= 10 && betrag <= 99) {
             System.out.println(zahl + " ist eine zweistellige Zahl");
         } else {
             System.out.println(zahl + " ist keine zweistellige Zahl");
